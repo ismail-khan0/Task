@@ -59,7 +59,7 @@ function Dropdown() {
         </div>
       )}
       {isOpen && (
-        <div className="ml-[63%] flex flex-col">
+        <div className="lg:ml-[63%] ml-[20%] mt-10 lg:mt-0 flex flex-col">
           <div className="w-20 h-[2px] mb-2 bg-black "></div>
           <div>
             {" "}

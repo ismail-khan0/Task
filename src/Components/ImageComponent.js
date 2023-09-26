@@ -11,7 +11,7 @@ function ImageComponent({ src, name, price, Qty, setDecrease, setIncrease }) {
             className="w-[70px] h-[70px] lg:w-[200px] lg:h-[180px]"
           />
         </div>
-        <div className="flex-col ml-4 mt-4 flex items-end">
+        <div className="flex-col ml-0 lg:ml-4 mt-4 flex items-end">
           <h2 className="text-xl font-semibold ml-6">{name}</h2>
           <p className="  mt-2 ">Price: ${price}</p>
         </div>
